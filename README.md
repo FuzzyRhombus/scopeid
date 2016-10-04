@@ -1,4 +1,4 @@
-# scopeid
+# scopeid [![Build Status](https://travis-ci.org/FuzzyRhombus/scopeid.svg?branch=master)](https://travis-ci.org/FuzzyRhombus/scopeid)
 
 Return simple incremental ids for each named scope
 
