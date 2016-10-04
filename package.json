@@ -1,0 +1,18 @@
+{
+  "name": "scopeid",
+  "version": "1.0.0",
+  "description": "return simple incremental ids for each named scope",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "id",
+    "simple",
+    "unique",
+    "string",
+    "scope"
+  ],
+  "author": "Ryan Mastrolia <ryan.mastrolia@gmail.com>",
+  "license": "MIT"
+}
