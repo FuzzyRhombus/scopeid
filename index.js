@@ -14,5 +14,5 @@ module.exports = function (scope) {
 };
 
 module.exports.string = function (scope) {
-    return scope + this(scope);
+    return (scope || '') + this(scope);
 };
