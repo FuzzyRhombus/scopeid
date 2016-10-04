@@ -3,7 +3,7 @@
 var uid = 0;
 var scopes = {};
 
-module.exports = function (scope) {
+var scopeid = module.exports = function (scope) {
     var id;
     if (scope) {
         scopes[scope] = scopes[scope] || 0;
@@ -14,5 +14,5 @@ module.exports = function (scope) {
 };
 
 module.exports.string = function (scope) {
-    return (scope || '') + this(scope);
+    return (scope || '') + scopeid(scope);
 };
