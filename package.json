@@ -4,7 +4,7 @@
   "description": "return simple incremental ids for each named scope",
   "main": "index.js",
   "scripts": {
-    "test": "jshint index.js && tape test | tap-spec"
+    "test": "jshint index.js && covert test | tap-spec"
   },
   "keywords": [
     "id",
@@ -16,6 +16,7 @@
   "author": "Ryan Mastrolia <ryan.mastrolia@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "covert": "^1.1.0",
     "jshint": "^2.9.3",
     "tap-spec": "^4.1.1",
     "tape": "^4.6.2"
